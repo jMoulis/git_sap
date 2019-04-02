@@ -82,15 +82,8 @@
 					</OverflowToolbar>
 				</headerToolbar>
 				<items>
-					<ObjectListItem
-						type="Navigation"
-						press=".onSelectionChange"
-						title="{CategoryName}"
-						number="{
-							path: 'CategoryID',
-							formatter: '.formatter.currencyValue'
-						}"
->
+					<ObjectListItem title="SImon">
+						
 					</ObjectListItem>
 				</items>
 			</List>
